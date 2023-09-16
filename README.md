@@ -1,4 +1,4 @@
-# curso-github da udemy
+# Comandos básicos do git
 
 1 - inicializando o repositório git:
 
