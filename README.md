@@ -20,7 +20,7 @@
 
 5 - enviando o arquivo paro repositório remoto:
 
-    git push origin main 
+				    git push origin main 
 
 6 - removendo arquivo do git:
     
