@@ -1,28 +1,28 @@
 # Comandos básicos do git
 
-1 - inicializando o repositório git:
+1 - inicializando o repositório git
 
     git init
 
-2 - clonando repositório do git para máquina local:
+2 - clonando repositório do git para máquina local
 
     git clone < url do repositório >
 
-3 - adcionando arquivo ao repositorio git:
+3 - adcionando arquivo ao repositorio git
 
     git add . ==> adiciona todos os arquivos
 
     git add < nome do arquivo > ==> adciona apenas o arquivo 
 
-4 - salvando (comitando) alteração de vários arquivos em um só comando:
+4 - salvando (comitando) alteração de vários arquivos em um só comando
 
      git commit -a -m < "mensagem do commit" >
 
-5 - enviando o arquivo paro repositório remoto:
+5 - enviando o arquivo paro repositório remoto
 
     git push origin main 
 
-6 - removendo arquivo do git:
+6 - removendo arquivo do git
     
     git rm < nome do arquivo >
 
@@ -43,3 +43,7 @@
 8 - desfazendo alterações no arquivo
 
     git checkout < nome do arquivo >
+
+9 - resetando a branch mesmo após commit
+
+    git reset --hard origin/main ==> resetando a branch main
