@@ -8,3 +8,6 @@
 
     git commit -a -m < "mensagem do commit" >
 
+3 - verificando os logs
+
+    git log
