@@ -35,3 +35,7 @@
     git mv < nome do arquivo aquivo do nome> ==> renomeia o arquivo
     
     git mv arquivo1 diretório/arquivo1 ==> move o arquivo entre diretórios
+
+7 - atualiza repositório local com os dados do respositório remoto
+
+    git pull
