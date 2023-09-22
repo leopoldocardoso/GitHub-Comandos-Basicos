@@ -47,3 +47,14 @@
 9 - resetando a branch mesmo após commit
 
     git reset --hard origin/main ==> resetando a branch main
+
+10 - criando branch
+
+    git branch < nome da branch >
+
+11 - deletando branch
+
+    git branch -d < nome da branch >
+
+12 - 
+    
