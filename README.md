@@ -56,5 +56,6 @@
 
     git branch -d < nome da branch >
 
-12 - 
-    
+12 - Mudando de Branch
+
+    git checkout -b <nome da branch>
