@@ -12,7 +12,7 @@
 
     git add . ==> adiciona todos os arquivos
 
-    git add < nome do arquivo > ==> adciona apenas o arquivo 
+    git add < nome do arquivo > ==> adciona apenas o arquivo
 
 4 - salvando (comitando) alteração de vários arquivos em um só comando
 
@@ -20,10 +20,10 @@
 
 5 - enviando o arquivo paro repositório remoto
 
-    git push origin main 
+    git push origin main
 
 6 - removendo arquivo do git
-    
+
     git rm < nome do arquivo >
 
 5 - verificando os logs
@@ -33,7 +33,7 @@
 6 - movendo ou renomeando arquivos no git
 
     git mv < nome do arquivo aquivo do nome> ==> renomeia o arquivo
-    
+
     git mv diretório/arquivo1 diretório-02/arquivo1 ==> move o arquivo entre diretórios
 
 7 - atualiza repositório local com os dados do respositório remoto
@@ -85,3 +85,17 @@
     git stash clear ==> remove todas as stashs
 
     git stash drop <número da stash> ==> remove apenas a stash específica
+
+18 - Criação de tag
+
+    git tag -a <versão da tag> -m <"mensagem de commit">
+
+    Obs: as tags são úteis para salvar um ponto do código
+
+19 - visualização da tag
+
+    git show tag <nome da tag>
+
+20 - navegando entre tags
+
+    git tag checkout <nome da tag>
