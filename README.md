@@ -2,87 +2,87 @@
 
 ### O objetivo deste readme é facilitar o uso do github no dia a dia de estudantes e profissionais de TI que façam utilização desta poderosa ferramnenta de versionamento
 
-1 - inicializando o repositório git
+1 - Inicializando o repositório git
 
     git init
 
-2 - clonando repositório do git para máquina local
+2 - Clonando repositório do git para máquina local
 
     git clone < url do repositório >
 
-3 - adcionando arquivo ao repositorio git
+3 - Adcionando arquivo ao repositorio git
 
     git add . ==> adiciona todos os arquivos
 
     git add < nome do arquivo > ==> adciona apenas o arquivo
 
-4 - salvando (comitando) alteração de vários arquivos em um só comando
+4 - Salvando (comitando) alteração de vários arquivos em um só comando
 
      git commit -a -m < "mensagem do commit" >
 
-5 - enviando o arquivo paro repositório remoto
+5 - Enviando o arquivo paro repositório remoto
 
     git push origin main
 
-6 - removendo arquivo do git
+6 - Removendo arquivo do git
 
     git rm < nome do arquivo >
 
-5 - verificando os logs
+5 - Verificando os logs
 
     git log
 
-6 - movendo ou renomeando arquivos no git
+6 - Movendo ou renomeando arquivos no git
 
     git mv < nome do arquivo aquivo do nome> ==> renomeia o arquivo
 
     git mv diretório/arquivo1 diretório-02/arquivo1 ==> move o arquivo entre diretórios
 
-7 - atualiza repositório local com os dados do respositório remoto
+7 - Atualiza repositório local com os dados do respositório remoto
 
     git pull
 
-8 - desfazendo alterações no arquivo
+8 - Desfazendo alterações no arquivo
 
     git checkout < nome do arquivo >
 
-9 - resetando a branch mesmo após commit
+9 - Resetando a branch mesmo após commit
 
     git reset --hard origin/main ==> resetando a branch main
 
-10 - criando branch
+10 - Criando branch
 
     git branch < nome da branch >
 
-11 - deletando branch
+11 - Deletando branch
 
     git branch -d < nome da branch >
 
-12 - mudando de Branch
+12 - Mudando de Branch
 
     git checkout <nome da branch>
 
-13 - criando branch e mudando para branch criada
+13 - Criando branch e mudando para branch criada
 
     git checkout -B <nome da nova branch>
 
-14 - unindo branch (merge entre branchs)
+14 - Unindo branch (merge entre branchs)
 
     git merge <nome da branch>
 
-15 - desfazendo e salvando alterações no código (funciona apenas em arquivos não comitados)
+15 - Desfazendo e salvando alterações no código (funciona apenas em arquivos não comitados)
 
     git stash
 
     Obs: O stash funciona como uma lixeira do git. Ao realizar uma alteração no código posso digitar o comando < git stash > que ele salva a alteração em uma stash e desfaz estas alterações em uma stash atual.
 
-16 - recuperando stash
+16 - Recuperando stash
 
     git stash list ==>> lista as stashs criadas
 
     git apply stash <numero da stash> ==> restaura a stash
 
-17 - removendo stashs
+17 - Removendo stashs
 
     git stash clear ==> remove todas as stashs
 
@@ -94,19 +94,18 @@
 
     Obs: as tags são úteis para salvar um ponto do código
 
-19 - visualização da tag
+19 - Visualização da tag
 
     git show tag <nome da tag>
 
-20 - navegando entre tags
+20 - Navegando entre tags
 
     git tag checkout <nome da tag>
 
-
-21 - enviando tag para o repositório
+21 - Enviando tag para o repositório
 
     git push origin <nome da tag>
 
-22 - enviando tag para o repositório
+22 - Enviando tag para o repositório
 
     git push origin <nome da tag>
