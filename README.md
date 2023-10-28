@@ -56,6 +56,10 @@
 
     git branch -d < nome da branch >
 
-12 - Mudando de Branch
+12 - mudando de Branch
 
-    git checkout -b <nome da branch>
+    git checkout <nome da branch>
+
+13 - criando branch e mudando para branch criada
+
+    git checkout -B <nome da nova branch>
