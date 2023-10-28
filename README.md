@@ -1,4 +1,6 @@
-# Comandos básicos do git
+## Comandos básicos do git utilizando GitHub ##
+
+# O objetivo deste readme é facilitar o uso do github no dia a dia de estudantes e profissionais de TI que façam utilização desta poderosa ferramnenta de versionamento
 
 1 - inicializando o repositório git
 
