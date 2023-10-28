@@ -105,3 +105,6 @@
 
     git push origin <nome da tag>
 
+22 - enviando tag para o repositório
+
+    git push origin <nome da tag>
