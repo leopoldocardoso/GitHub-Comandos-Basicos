@@ -99,3 +99,7 @@
 20 - navegando entre tags
 
     git tag checkout <nome da tag>
+
+21 - enviando tag para o repositório
+
+    git push origin <nome da tag>
