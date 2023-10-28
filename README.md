@@ -67,3 +67,21 @@
 14 - unindo branch (merge entre branchs)
 
     git merge <nome da branch>
+
+15 - desfazendo e salvando alterações no código (funciona apenas em arquivos não comitados)
+
+    git stash
+
+    Obs: O stash funciona como uma lixeira do git. Ao realizar uma alteração no código posso digitar o comando < git stash > que ele salva a alteração em uma stash e desfaz estas alterações em uma stash atual.
+
+16 - recuperando stash
+
+    git stash list ==>> lista as stashs criadas
+
+    git apply stash <numero da stash> ==> restaura a stash
+
+17 - removendo stashs
+
+    git stash clear ==> remove todas as stashs
+
+    git stash drop <número da stash> ==> remove apenas a stash específica
