@@ -113,3 +113,21 @@
 23 - Encontrando branchs remotas
 
     git fetch -a
+
+24 - Utilizando o remote
+
+    git remote -v ==> visualizaos repositórios no git
+
+    git remote add origin <link do repositorio> ==> adciona um repositório remoto
+
+    git remote rm origin ==> remove o repositório remoto
+
+25 - Adicionando submódulos
+
+    Antes dos comandos, uma breve descrição do que é submódulos:
+    - Submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositório;
+    - Podemos adicionar uma dependência ao nosso projeto atual, porém mantendo em estruturas separadas.
+
+    git submodule add <repositório> ==> adiciona uma submódulo
+
+    git submodule ==> verifica os submódulos
