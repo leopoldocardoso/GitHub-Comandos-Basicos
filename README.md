@@ -64,7 +64,7 @@
 
 13 - Criando branch e mudando para branch criada
 
-    git checkout -B <nome da nova branch>
+    git checkout -b <nome da nova branch>
 
 14 - Unindo branch (merge entre branchs)
 
@@ -109,3 +109,7 @@
 22 - Enviando tag para o repositório
 
     git push origin <nome da tag>
+
+23 - Encontrando branchs remotas
+
+    git fetch -a
