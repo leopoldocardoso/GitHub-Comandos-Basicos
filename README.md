@@ -85,4 +85,5 @@
     git stash clear ==> remove todas as stashs
 
     git stash drop <número da stash> ==> remove apenas a stash específica
-    
+
+18
