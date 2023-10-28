@@ -63,3 +63,7 @@
 13 - criando branch e mudando para branch criada
 
     git checkout -B <nome da nova branch>
+
+14 - unindo branch (merge entre branchs)
+
+    git merge <nome da branch>
