@@ -133,4 +133,13 @@
     git submodule ==> verifica os submódulos
 
 26 - Git Show: Apresenta informações úteis de um branch.
+
     git show < nome da branch >
+
+27 - Exibindo diferenças entre branchs
+
+     git diff < nome da branch >
+
+28 - Git shortlog: Este comando apresenta um log de forma resumida do projeto e o nome dos usuários que realizaram alterações
+
+    git shortlog
