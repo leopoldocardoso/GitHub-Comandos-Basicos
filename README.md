@@ -134,3 +134,7 @@
 27 - Git shortlog: Este comando apresenta um log de forma resumida do projeto e o nome dos usuários que realizaram alterações
 
     git shortlog
+
+28 - Limpando arquivos não trackeados (Entenda como limpar, excluir o arquivo do repositório)
+
+    git clean -f (a opção -f para forçar)
