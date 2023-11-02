@@ -131,3 +131,6 @@
     git submodule add <repositório> ==> adiciona uma submódulo
 
     git submodule ==> verifica os submódulos
+
+26 - Git Show: Apresenta informações úteis de um branch.
+    git show < nome da branch >
