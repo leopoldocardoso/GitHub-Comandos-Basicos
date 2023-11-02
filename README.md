@@ -116,30 +116,21 @@
 
 24 - Utilizando o remote
 
-    git remote -v ==> visualizaos repositórios no git
+    git remote -v ==> visualiza os repositórios no git
 
     git remote add origin <link do repositorio> ==> adciona um repositório remoto
 
     git remote rm origin ==> remove o repositório remoto
 
-25 - Adicionando submódulos
 
-    Antes dos comandos, uma breve descrição do que é submódulos:
-    - Submódulo é a maneira que temos de possuir dois ou mais projetos em um só repositório;
-    - Podemos adicionar uma dependência ao nosso projeto atual, porém mantendo em estruturas separadas.
-
-    git submodule add <repositório> ==> adiciona uma submódulo
-
-    git submodule ==> verifica os submódulos
-
-26 - Git Show: Apresenta informações úteis de um branch.
+25 - Git Show: Apresenta informações úteis de um branch.
 
     git show < nome da branch >
 
-27 - Exibindo diferenças entre branchs
+26 - Exibindo diferenças entre branchs
 
      git diff < nome da branch >
 
-28 - Git shortlog: Este comando apresenta um log de forma resumida do projeto e o nome dos usuários que realizaram alterações
+27 - Git shortlog: Este comando apresenta um log de forma resumida do projeto e o nome dos usuários que realizaram alterações
 
     git shortlog
