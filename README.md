@@ -142,3 +142,7 @@
 29 - Excluindo arquivos que não são mais necessários (garbage collector) para otimizar o repositório
 
     git gc
+
+30 - Comando para mapear todos os passos no repositório
+
+    git reflog
