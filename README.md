@@ -138,3 +138,7 @@
 28 - Limpando arquivos não trackeados (Entenda como limpar, excluir o arquivo do repositório)
 
     git clean -f (a opção -f para forçar)
+
+29 - Excluindo arquivos que não são mais necessários (garbage collector) para otimizar o repositório
+
+    git gc
