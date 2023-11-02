@@ -122,7 +122,6 @@
 
     git remote rm origin ==> remove o repositório remoto
 
-
 25 - Git Show: Apresenta informações úteis de um branch.
 
     git show < nome da branch >
